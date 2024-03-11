@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(27,40,56);
+    color: #c6c6c6;
+}
+
+.navbar {
+    background-color: rgb(36,134,255);
+
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+
+}
+
+.nav-link {
+    color: rgb(36,134,255);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(36,134,255);
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(36,134,255);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(36,134,255);
+}
+
+.carousel-caption {
+    right: 20px;
+    left: 40%;
+    bottom: 65px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+
+.carousel-indicators {
+    bottom: 85px;
+}
+
+.promocoes-img,
+.mais-vendidos-img {
+    width: 70%;
+    cursor: pointer;
+}
+
+.sosical-links li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.sosical-links a {
+    text-decoration: none;
+}
+
+.test {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .promocoes-img,
+    .mais-vendidos-img {
+        width: 40%;
+    }
+}
