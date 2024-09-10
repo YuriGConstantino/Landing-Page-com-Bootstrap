@@ -12,7 +12,7 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-catalogo .nav-link.active:hover {
     color: #fff;
 
 }
@@ -30,13 +30,13 @@ body {
     background-color: #ffeae6;
 }
 
-.nav-cardapio .nav-link.active,
+.nav-catalogo .nav-link.active,
 #fale-conosco button {
     background-color: rgb(36,134,255);
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-catalogo .nav-link:hover {
     color: rgb(36,134,255);
 }
 
