@@ -53,6 +53,10 @@ body {
     bottom: 85px;
 }
 
+.promocoes {
+    margin: 5rem auto;
+}
+
 .promocoes-img,
 .mais-vendidos-img {
     width: 70%;
